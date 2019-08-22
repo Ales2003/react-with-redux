@@ -84,6 +84,9 @@ class MainC extends Component {
                         changeLastName(event.target.value);
                     }}/>
                 </div>
+                <div>
+                    {`${firstName} ${lastName}`}
+                </div>
             </div>
         );
     }
